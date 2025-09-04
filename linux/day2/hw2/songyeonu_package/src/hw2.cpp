@@ -69,6 +69,7 @@ namespace SYU{
 
     void GetDist::PrintResult(){
         MinDist=((double)dot[0].x-(double)dot[1].x)*((double)dot[0].x-(double)dot[1].x)+((double)dot[0].y-(double)dot[1].y)*((double)dot[0].y-(double)dot[1].y);
+        MinDist=sqrt(MinDist);
         MaxDist=MinDist;
         min1=dot[0];min2=dot[1];
         max1=min1;max2=min2;

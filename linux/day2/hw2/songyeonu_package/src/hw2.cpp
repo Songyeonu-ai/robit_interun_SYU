@@ -20,7 +20,6 @@ namespace SYU{
         return true;
     }
     int GetDist::GetCoord(){
-        GetDist distance;
         cout<<"Please define the number of points: ";
         cin>>p;
         if(!CinSecure(p)){

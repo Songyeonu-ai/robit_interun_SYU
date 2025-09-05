@@ -18,9 +18,9 @@ MainWindow::MainWindow(QWidget *parent)
     Timer2->setInterval(100);
     Timer3->setInterval(100);
 
-    connect(Timer1, SIGNAL(timeout()), this, SLOT(rotate1()));
-    connect(Timer2, SIGNAL(timeout()), this, SLOT(rotate2()));
-    connect(Timer3, SIGNAL(timeout()), this, SLOT(rotate3()));
+    connect(Timer1, &QTimer::timeout, this, &MainWindow::rotate1);
+    connect(Timer2, &QTimer::timeout, this, &MainWindow::rotate2);
+    connect(Timer3, &QTimer::timeout, this, &MainWindow::rotate3);
 }
 
 MainWindow::~MainWindow()

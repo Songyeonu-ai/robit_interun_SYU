@@ -1,0 +1,11 @@
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/uninstall.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/sub_node.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/pub_node.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/test.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/edit_cache.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/list_install_components.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/install.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/local.dir
+/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/strip.dir

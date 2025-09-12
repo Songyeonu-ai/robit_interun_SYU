@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000655] (my_first_ros_rclcpp_pkg) JobQueued: {'identifier': 'my_first_ros_rclcpp_pkg', 'dependencies': OrderedDict()}
+[0.000712] (my_first_ros_rclcpp_pkg) JobStarted: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.016289] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'cmake'}
+[0.016376] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'build'}
+[0.016409] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yu/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '775'), ('SYSTEMD_EXEC_PID', '905'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45282'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yu/colcon_ws/install:/home/yu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yu'), ('JOURNAL_STREAM', '8:8601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yu:@/tmp/.ICE-unix/885,unix/yu:/tmp/.ICE-unix/885'), ('INVOCATION_ID', '6e4a1e287b0e4876b15425083c99a0d9'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MAJWC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-862f7bc167.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/home/yu/colcon_ws/install/pubsub_cpp:/home/yu/colcon_ws/install/my_first_ros_rclcpp_pkg:/home/yu/ros2_ws/install/turtlesim:/home/yu/ros2_ws/install/my_package:/home/yu/colcon_ws/install/pkg_example:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yu/colcon_ws/install/pubsub_cpp:/home/yu/colcon_ws/install/my_first_ros_rclcpp_pkg:/home/yu/ros2_ws/install/turtlesim:/home/yu/ros2_ws/install/my_package:/home/yu/colcon_ws/install/pkg_example:/opt/ros/humble')]), 'shell': False}
+[0.078409] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098280] (-) TimerEvent: {}
+[0.201516] (-) TimerEvent: {}
+[0.264604] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.301609] (-) TimerEvent: {}
+[0.305958] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.309539] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.318042] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.331234] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.348728] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.393907] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.396160] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.401723] (-) TimerEvent: {}
+[0.504423] (-) TimerEvent: {}
+[0.547540] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.604542] (-) TimerEvent: {}
+[0.619457] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.704652] (-) TimerEvent: {}
+[0.729429] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.730989] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.731492] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.731596] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.734627] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.736406] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.747690] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.747941] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.749638] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.750169] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.765390] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.770869] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg\n'}
+[0.804766] (-) TimerEvent: {}
+[0.805468] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sub_node\x1b[0m\n'}
+[0.811457] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub_node\x1b[0m\n'}
+[0.828347] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub_node.cpp.o\x1b[0m\n'}
+[0.843495] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 75%] Built target pub_node\n'}
+[0.904891] (-) TimerEvent: {}
+[1.005399] (-) TimerEvent: {}
+[1.105947] (-) TimerEvent: {}
+[1.206581] (-) TimerEvent: {}
+[1.307122] (-) TimerEvent: {}
+[1.407832] (-) TimerEvent: {}
+[1.508575] (-) TimerEvent: {}
+[1.609256] (-) TimerEvent: {}
+[1.709831] (-) TimerEvent: {}
+[1.812272] (-) TimerEvent: {}
+[1.912653] (-) TimerEvent: {}
+[2.013005] (-) TimerEvent: {}
+[2.113377] (-) TimerEvent: {}
+[2.214783] (-) TimerEvent: {}
+[2.315167] (-) TimerEvent: {}
+[2.415573] (-) TimerEvent: {}
+[2.515953] (-) TimerEvent: {}
+[2.619542] (-) TimerEvent: {}
+[2.719935] (-) TimerEvent: {}
+[2.821425] (-) TimerEvent: {}
+[2.921806] (-) TimerEvent: {}
+[3.022283] (-) TimerEvent: {}
+[3.122976] (-) TimerEvent: {}
+[3.224425] (-) TimerEvent: {}
+[3.324816] (-) TimerEvent: {}
+[3.425217] (-) TimerEvent: {}
+[3.526422] (-) TimerEvent: {}
+[3.626795] (-) TimerEvent: {}
+[3.727400] (-) TimerEvent: {}
+[3.830422] (-) TimerEvent: {}
+[3.930774] (-) TimerEvent: {}
+[4.031144] (-) TimerEvent: {}
+[4.131527] (-) TimerEvent: {}
+[4.231878] (-) TimerEvent: {}
+[4.334737] (-) TimerEvent: {}
+[4.435109] (-) TimerEvent: {}
+[4.535428] (-) TimerEvent: {}
+[4.635796] (-) TimerEvent: {}
+[4.738424] (-) TimerEvent: {}
+[4.838778] (-) TimerEvent: {}
+[4.939605] (-) TimerEvent: {}
+[5.040229] (-) TimerEvent: {}
+[5.141033] (-) TimerEvent: {}
+[5.241902] (-) TimerEvent: {}
+[5.342770] (-) TimerEvent: {}
+[5.443569] (-) TimerEvent: {}
+[5.544435] (-) TimerEvent: {}
+[5.645291] (-) TimerEvent: {}
+[5.746725] (-) TimerEvent: {}
+[5.847446] (-) TimerEvent: {}
+[5.948080] (-) TimerEvent: {}
+[6.048750] (-) TimerEvent: {}
+[6.149551] (-) TimerEvent: {}
+[6.250325] (-) TimerEvent: {}
+[6.351308] (-) TimerEvent: {}
+[6.451823] (-) TimerEvent: {}
+[6.552512] (-) TimerEvent: {}
+[6.652952] (-) TimerEvent: {}
+[6.753658] (-) TimerEvent: {}
+[6.854481] (-) TimerEvent: {}
+[6.955196] (-) TimerEvent: {}
+[7.057430] (-) TimerEvent: {}
+[7.157781] (-) TimerEvent: {}
+[7.258148] (-) TimerEvent: {}
+[7.358736] (-) TimerEvent: {}
+[7.461559] (-) TimerEvent: {}
+[7.561949] (-) TimerEvent: {}
+[7.662361] (-) TimerEvent: {}
+[7.764996] (-) TimerEvent: {}
+[7.865725] (-) TimerEvent: {}
+[7.966426] (-) TimerEvent: {}
+[8.067097] (-) TimerEvent: {}
+[8.167786] (-) TimerEvent: {}
+[8.268538] (-) TimerEvent: {}
+[8.368907] (-) TimerEvent: {}
+[8.469600] (-) TimerEvent: {}
+[8.570423] (-) TimerEvent: {}
+[8.671212] (-) TimerEvent: {}
+[8.771981] (-) TimerEvent: {}
+[8.873036] (-) TimerEvent: {}
+[8.974380] (-) TimerEvent: {}
+[9.074736] (-) TimerEvent: {}
+[9.175419] (-) TimerEvent: {}
+[9.276054] (-) TimerEvent: {}
+[9.377644] (-) TimerEvent: {}
+[9.478302] (-) TimerEvent: {}
+[9.578834] (-) TimerEvent: {}
+[9.679361] (-) TimerEvent: {}
+[9.779886] (-) TimerEvent: {}
+[9.880602] (-) TimerEvent: {}
+[9.981195] (-) TimerEvent: {}
+[10.081746] (-) TimerEvent: {}
+[10.182317] (-) TimerEvent: {}
+[10.283035] (-) TimerEvent: {}
+[10.383537] (-) TimerEvent: {}
+[10.484365] (-) TimerEvent: {}
+[10.585210] (-) TimerEvent: {}
+[10.685802] (-) TimerEvent: {}
+[10.786531] (-) TimerEvent: {}
+[10.889282] (-) TimerEvent: {}
+[10.989645] (-) TimerEvent: {}
+[11.090014] (-) TimerEvent: {}
+[11.190666] (-) TimerEvent: {}
+[11.291522] (-) TimerEvent: {}
+[11.392460] (-) TimerEvent: {}
+[11.453480] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub_node\x1b[0m\n'}
+[11.492588] (-) TimerEvent: {}
+[11.593321] (-) TimerEvent: {}
+[11.694208] (-) TimerEvent: {}
+[11.794633] (-) TimerEvent: {}
+[11.895454] (-) TimerEvent: {}
+[11.987513] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[100%] Built target sub_node\n'}
+[11.995580] (-) TimerEvent: {}
+[12.005405] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[12.005970] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'install'}
+[12.019443] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg'], 'cwd': '/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yu/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.103.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '775'), ('SYSTEMD_EXEC_PID', '905'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45282'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yu/colcon_ws/install:/home/yu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yu'), ('JOURNAL_STREAM', '8:8601'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yu:@/tmp/.ICE-unix/885,unix/yu:/tmp/.ICE-unix/885'), ('INVOCATION_ID', '6e4a1e287b0e4876b15425083c99a0d9'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MAJWC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-862f7bc167.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/home/yu/colcon_ws/install/pubsub_cpp:/home/yu/colcon_ws/install/my_first_ros_rclcpp_pkg:/home/yu/ros2_ws/install/turtlesim:/home/yu/ros2_ws/install/my_package:/home/yu/colcon_ws/install/pkg_example:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yu/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yu/colcon_ws/install/pubsub_cpp:/home/yu/colcon_ws/install/my_first_ros_rclcpp_pkg:/home/yu/ros2_ws/install/turtlesim:/home/yu/ros2_ws/install/my_package:/home/yu/colcon_ws/install/pkg_example:/opt/ros/humble')]), 'shell': False}
+[12.031334] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.033129] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/pub_node\n'}
+[12.034406] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/sub_node\n'}
+[12.037401] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/sub_node" to ""\n'}
+[12.037974] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg\n'}
+[12.038100] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg\n'}
+[12.038325] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh\n'}
+[12.038665] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv\n'}
+[12.038768] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh\n'}
+[12.039222] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv\n'}
+[12.039317] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash\n'}
+[12.039419] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh\n'}
+[12.039496] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh\n'}
+[12.039564] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv\n'}
+[12.041427] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Installing: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv\n'}
+[12.043701] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg\n'}
+[12.044325] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake\n'}
+[12.044425] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake\n'}
+[12.044503] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yu/colcon_ws/src/my_first_ros_rclcpp_pkg/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml\n'}
+[12.044581] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[12.070324] (my_first_ros_rclcpp_pkg) JobEnded: {'identifier': 'my_first_ros_rclcpp_pkg', 'rc': 0}
+[12.071326] (-) EventReactorShutdown: {}

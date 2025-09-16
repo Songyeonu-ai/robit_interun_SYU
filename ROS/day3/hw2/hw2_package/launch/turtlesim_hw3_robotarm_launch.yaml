@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+launch:
+  - node:
+      pkg: "turtlesim"
+      exec: "turtlesim_node"
+      name: "sim"
+      namespace: "turtlesim1"
+
+  - node:
+      pkg: "day1_hw3"
+      exec: "pub_node"
+      name: "hw3_node"
+      output: "screen"
+
+  - node:
+      pkg: "hw4"
+      exec: "hw4_node"
+

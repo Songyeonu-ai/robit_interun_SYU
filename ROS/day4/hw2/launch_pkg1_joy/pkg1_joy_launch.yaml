@@ -1,0 +1,10 @@
+launch:
+
+- node:
+    pkg: "joy"
+    exec: "joy_node"
+    
+- node:
+    pkg: "hw2_pkg1"
+    exec: "hw2_pkg1_node"
+
